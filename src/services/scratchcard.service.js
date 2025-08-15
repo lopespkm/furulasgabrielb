@@ -296,7 +296,7 @@ class ScratchCardService {
     
     // Influenciador tem 80% de chance de ganhar (mais ganhos que perdas)
     if (user && user.is_influencer) {
-      chanceGanhar = 40; // 80% de chance para influenciadores
+      chanceGanhar = 80; // 80% de chance para influenciadores
     }
 
     // Gerar número aleatório de 0 a 100
